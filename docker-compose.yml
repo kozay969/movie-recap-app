@@ -8,8 +8,8 @@ services:
     volumes:
       - ./storage:/app/storage
       - ./backend:/app
-    env_file:
-      - ./backend/.env    ← ဒီတစ်ကြောင်းထပ်ထည့်
+    env_file:                    ← ဒီစာကြောင်း 2 ကြောင်းနဲ့ အစားထိုး
+      - ./backend/.env           ← environment ကိုဖျက်ပြီး ဒါထည့်ပါ
     command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
   frontend:

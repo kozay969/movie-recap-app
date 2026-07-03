@@ -1,0 +1,25 @@
+# API Keys
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+
+# Video Files
+storage/
+*.mp4
+*.mkv
+*.avi
+*.wav
+*.srt
+
+# Editor
+.vscode/
+*.swp
+*.swo
+.DS_Store
